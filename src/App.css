@@ -1,0 +1,13 @@
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;
+  height: 600px;
+  width: 80%;
+  /* shoadow */
+  border-radius: 11px;
+  background: linear-gradient(145deg, #7877e2, #6564be);
+  box-shadow: 6px 6px 18px #5757a5, -6px -6px 18px #8987ff;
+  font: inherit;
+}
