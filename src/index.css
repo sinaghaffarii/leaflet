@@ -7,9 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #474787;
   font-family: Shabnam !important;
+  max-height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+
+
 }

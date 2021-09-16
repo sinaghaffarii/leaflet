@@ -10,8 +10,8 @@ import {customer_api as locations} from './customers_api'
 class App extends React.Component {
   state = {
     location: {
-      XCST: 35.357696204467516,
-      YCST: 51.21276855468751,
+      XCST: 35.68757466560839,
+      YCST: 51.39226198196411,
     },
   };
 
@@ -31,7 +31,10 @@ class App extends React.Component {
       this.state.location.YCST,
     ];
     return (
-      <MapContainer className="map" center={customerLocation} zoom={13}>
+     <div>
+     <p className="baner">پارس رویال</p>
+     <div>
+     <MapContainer className="map" center={customerLocation} zoom={13}>
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
@@ -46,6 +49,8 @@ class App extends React.Component {
           );
         })}
       </MapContainer>
+     </div>
+     </div>
     );
   }
 }

@@ -1,13 +1,29 @@
+.baner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem auto 0.5rem auto;
+  background-color: #f5f6fa;
+  width: 200px;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgba(47, 53, 66,1.0);
+  /* shadow */
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(47, 53, 66,1.0);
+}
+
 .map {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 3rem auto;
+  margin: 1.5rem auto;
   height: 600px;
   width: 80%;
   /* shoadow */
-  border-radius: 11px;
-  background: linear-gradient(145deg, #7877e2, #6564be);
-  box-shadow: 6px 6px 18px #5757a5, -6px -6px 18px #8987ff;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(47, 53, 66,1.0);
   font: inherit;
 }
